@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+}
+
+#App{
+  background-color: rgb(182, 148, 255);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#SearchBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#SearchButton{
+  background-color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(35, 35, 35);
+  box-shadow: 0px 10px 10px #00000049;
+  transition: width 0.4s ease;
+  cursor: pointer;
+}
+
+#SearchBar input{
+  padding: 0;
+  font-size: 20px;
+  border: none;
+  height: 60px;
+  width: 0;
+  outline: none;
+  transition: all 0.6s ease;
+  box-shadow: 0px 10px 10px #00000049;
+  transition: all 0.4s ease;
+}
+
+#SearchBar .show-search{
+width: 100%;
+padding-left: 16px;
+}
