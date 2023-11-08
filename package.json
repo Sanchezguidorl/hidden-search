@@ -5,7 +5,7 @@
   "type": "module",
   "author": {
     "name": "Guido Abel Sanchez", "email": "sanchezguidorl@gmail.com"
-  }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
